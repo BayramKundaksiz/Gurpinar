@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcilisSayfasi">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/acilisGuidlineYatay1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.23950617" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/acilisGuidlineYatay2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="327dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/acilisGuidlineYatay3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.43" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/acilisGuidlineYatayikon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.74037036" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/acilisGuidlineYatay4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.77037036" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/acilisGuidlineDikey1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.0001" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/acilisGuidlineDikey2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.999" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/acilisGuidlineDikey13"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.33063262" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/acilisGuidlineDikey14"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.66" />
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/circle"
+        android:src="@drawable/koyuncocuklari"
+        app:layout_constraintBottom_toTopOf="@+id/acilisGuidlineYatay1"
+        app:layout_constraintEnd_toStartOf="@+id/acilisGuidlineDikey13"
+        app:layout_constraintStart_toStartOf="@+id/acilisGuidlineDikey1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/circle"
+        android:src="@drawable/eskifoto"
+        app:layout_constraintBottom_toTopOf="@+id/acilisGuidlineYatay1"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/acilisGuidlineDikey14"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toEndOf="@+id/image1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
+
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/circle"
+        android:src="@drawable/koyson"
+        app:layout_constraintBottom_toTopOf="@+id/acilisGuidlineYatay1"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toStartOf="@+id/acilisGuidlineDikey2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/acilisGuidlineDikey14"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/circle"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mukemmel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/acilisGuidlineDikey13"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/acilisGuidlineDikey1"
+        app:layout_constraintTop_toTopOf="@id/acilisGuidlineYatay4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/circle"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yasar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/acilisGuidlineDikey14"
+        app:layout_constraintStart_toStartOf="@+id/acilisGuidlineDikey13"
+        app:layout_constraintTop_toTopOf="@+id/acilisGuidlineYatay4"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <ImageView
+        android:id="@+id/image6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/circle"
+        android:scaleType="centerCrop"
+        android:src="@drawable/koyekmegi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/acilisGuidlineDikey2"
+        app:layout_constraintStart_toStartOf="@+id/acilisGuidlineDikey14"
+        app:layout_constraintTop_toTopOf="@+id/acilisGuidlineYatay4" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/circle"
+        android:src="@drawable/gurpinarlogom"
+        app:layout_constraintBottom_toTopOf="@+id/acilisGuidlineYatayikon"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toStartOf="@+id/acilisGuidlineDikey2"
+        app:layout_constraintStart_toStartOf="@+id/acilisGuidlineDikey1"
+        app:layout_constraintTop_toTopOf="@id/acilisGuidlineYatay3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="Gürpınar"
+        android:textColor="#DF1616"
+        android:textSize="90sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/acilisGuidlineYatay3"
+        app:layout_constraintEnd_toStartOf="@+id/acilisGuidlineDikey2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/acilisGuidlineDikey1"
+        app:layout_constraintTop_toTopOf="@+id/acilisGuidlineYatay1"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

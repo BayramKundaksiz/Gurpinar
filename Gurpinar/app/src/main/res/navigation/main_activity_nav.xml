@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.GurpinarHaber.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" />
+    <fragment
+        android:id="@+id/duyurularFragment"
+        android:name="com.GurpinarHaber.DuyurularFragment"
+        android:label="fragment_duyurular"
+        tools:layout="@layout/fragment_duyurular" />
+    <fragment
+        android:id="@+id/bildirimlerFragment"
+        android:name="com.GurpinarHaber.BildirimlerFragment"
+        android:label="fragment_bildirimler"
+        tools:layout="@layout/fragment_bildirimler" />
+
+</navigation>
